@@ -1,19 +1,25 @@
 {
   "name": "@megaclaw/blog-utils",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "publishConfig": {
     "access": "public"
   },
   "type": "module",
-  "main": "./src/index.ts",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "exports": {
-    ".": "./src/index.ts"
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
   },
+  "files": ["dist"],
   "scripts": {
+    "build": "tsc",
     "test": "vitest run",
     "test:watch": "vitest",
     "typecheck": "tsc --noEmit",
-    "publish": "npm publish --access public"
+    "prepublishOnly": "npm run build"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",
