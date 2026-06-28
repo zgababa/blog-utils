@@ -1,5 +1,5 @@
 {
-  "name": "@fabien/blog",
+  "name": "@megaclaw/blog-utils",
   "version": "1.0.0",
   "type": "module",
   "main": "./src/index.ts",

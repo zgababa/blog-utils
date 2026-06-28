@@ -1,17 +1,17 @@
-# @fabien/blog
+# @megaclaw/blog-utils
 
 Utilitaires pour lire des articles de blog depuis un répertoire de fichiers Markdown.
 
 ## Installation
 
 ```sh
-pnpm add @fabien/blog
+pnpm add @megaclaw/blog-utils
 ```
 
 ## Usage
 
 ```ts
-import { createBlogClient } from '@fabien/blog'
+import { createBlogClient } from '@megaclaw/blog-utils'
 
 const blog = createBlogClient('/path/to/your/posts')
 

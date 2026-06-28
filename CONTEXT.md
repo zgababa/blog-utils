@@ -1,4 +1,4 @@
-# Contexte du domaine — @fabien/blog
+# Contexte du domaine — @megaclaw/blog-utils
 
 ## Glossaire
 
