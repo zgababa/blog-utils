@@ -1,6 +1,9 @@
 {
   "name": "@megaclaw/blog-utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "publishConfig": {
+    "access": "public"
+  },
   "type": "module",
   "main": "./src/index.ts",
   "exports": {
